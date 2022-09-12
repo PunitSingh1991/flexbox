@@ -1,0 +1,143 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container {
+    max-width: 1330px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+.padding {
+    padding: 60px 32px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    background-color: #233962;
+    padding: 16px 0;
+    color: #fff;
+}
+.bell-icon {
+    width: 20px;
+   
+}
+.brand img {
+    width: 120px;
+}
+.nav a {
+    text-decoration: none;
+    font-size: 20px; 
+    color: #fff;
+    margin-left: 32px;
+}
+
+.nav a img {
+    vertical-align: middle;
+}
+.nav a span {
+    margin-right: 12px;
+    vertical-align: middle;
+}
+.aside-img {
+    width: 25px;
+}
+.asidebar {
+    background-color: #a3caea;
+    padding: 32px;
+    flex: 0 1 30%;
+    align-self: stretch;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.asidebar-nav {
+    display: flex;
+    flex-direction: column;
+}
+.asidebar-nav a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #233962;
+    padding: 16px;
+    border-radius: 5px;
+}
+.asidebar-nav a img {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.asidebar-nav .active {
+    border: 2px solid #ff7829;
+}
+.asidebar-nav .span {
+    color: #ff7829;
+}
+.logout-btn {
+    border: 0;
+    box-shadow: none;
+    padding: 16px 32px;
+    background-color: #fff;
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    color: #233962;
+}
+.logout-btn .btn-img {
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.article {
+    flex: 0 1 65%;
+    background-color: #dae3ea;
+    padding: 32px;
+    border-radius: 8px;
+}
+.heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #22396a;
+    margin-bottom: 16px 0;
+
+}
+.text {
+    font-size: 18px;
+    line-height: 1.5;
+    columns: #22396a;
+    margin-bottom: 12px;
+}
+.btn {
+       padding: 16px 32px;
+       background-color: #30ba66;
+       color: #fff;
+       font-size: 20px;
+       display: inline-block;
+       text-decoration: none;
+       border-radius: 8px;
+       font-weight: 600;
+       box-shadow: 0 4px 12px rgba(49, 187, 102, 0.64);
+       margin-top: 24px;
+}
+.footer {
+    background-color: #22396a;
+    padding: 44px 0;
+    color: #fff;
+}
+.footer-nav img {
+    width: 25px;
+}
+.footer a {
+    text-decoration: none;
+    margin-left: 32px;
+}
